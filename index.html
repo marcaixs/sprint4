@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="div-meteo">
+        <p id="meteo"></p>
+    </div>
+    <div class="div-joke">
+        <h1>Ready to laugh? &#x1f921</h1>
+        <p id="joke"></p>
+        <button class="button-joke" onclick="getJoke()">Next joke</button>
+        
+        <p>Rate the joke:</p>
+        <button class="button-score" onclick="rateJoke(1)">&#x1f620</button>
+        <button class="button-score" onclick="rateJoke(2)">&#x1f611</button>
+        <button class="button-score" onclick="rateJoke(3)">&#x1f606</button>
+    </div>
+
+    <script src="./dist/index.js"></script>
+</body>
+</html>

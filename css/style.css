@@ -1,0 +1,29 @@
+body {
+    background-image: url(../image/d39oacm-e6bc4b92-a38d-4fc3-9106-b6d55cefd5b7.jpg);
+  }
+
+.div-joke{
+    color: white;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    margin:10% 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color: rgb(119, 3, 3);   
+}
+.div-meteo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.button-score{
+    font-size: 40px;
+    padding: 0;
+    background: none;
+    border-radius: 50%;
+}
+.button-joke{
+    background-color: black;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}  
